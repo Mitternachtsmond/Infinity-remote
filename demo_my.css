@@ -1,0 +1,90 @@
+/* *{
+    margin: 0;
+    padding:0;
+} */
+body{
+    background:red;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul,li{
+    list-style: none;
+    /* removes bullets */
+ }
+
+li{
+    float:left;
+}
+ul{
+    width: 150px;
+}
+
+button{
+    color: white;
+    background: black;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+    padding: none;
+}
+button:focus{
+    color: black;
+    background: white;
+} 
+
+
+/* ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  button {
+    border: none;
+    display: block;
+    background: goldenrod;
+    color: white;
+    width: 90%;
+    height: 30px;  
+    margin: 5%;
+    transform: scale(0.8);
+    transition: 300ms;
+  }
+  button:hover, button:focus {
+    transform: scale(1);
+    outline: none;
+    background: powderblue;
+    color: #333;
+  }
+   
+  li {
+    float: left;
+  } */
+   
+  /* 
+    grid magic by @heydonworks 
+    https://codepen.io/heydon/pen/bcdrl
+  */
+   
+  /* li {
+    width: calc(100% / 4);
+  }
+  li:nth-child(4n+1):nth-last-child(1) {
+    width: 100%;
+  }
+  li:nth-child(4n+1):nth-last-child(1) ~ li {
+    width: 100%;
+  }
+  li:nth-child(4n+1):nth-last-child(2) {
+    width: 50%;
+  }
+  li:nth-child(4n+1):nth-last-child(2) ~ li {
+    width: 50%;
+  }
+  li:nth-child(4n+1):nth-last-child(3) {
+    width: calc(100% / 4);
+  }
+  li:nth-child(4n+1):nth-last-child(3) ~ li {
+    width: calc(100% / 4);
+  } */
