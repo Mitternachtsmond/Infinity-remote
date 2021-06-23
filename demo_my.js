@@ -6,7 +6,7 @@
       40: 3, 
       39: 1,
       37: -1
-//     };
+    };
 //     console.log(x.offsetWidth );
 //     console.log( x.firstElementChild.offsetWidth );
     for (var i = 0; i < boxes.length; i++) {
